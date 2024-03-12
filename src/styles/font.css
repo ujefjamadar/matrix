@@ -1,0 +1,49 @@
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/ShojumaruRegular.ttf");
+  font-family: "Shojumaru";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/ZCOOLKuaiLeRegular.ttf");
+  font-family: "ZCOOL KuaiLe";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/PoppinsSemiBold.ttf");
+  font-family: "Poppins";
+  font-weight: 600;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/RobotoMonoBold.ttf");
+  font-family: "Roboto Mono";
+  font-weight: 700;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/InterBold.ttf");
+  font-family: "Inter";
+  font-weight: 700;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/ManropeRegular.ttf");
+  font-family: "Manrope";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/PoppinsBold.ttf");
+  font-family: "Poppins";
+  font-weight: 700;
+}

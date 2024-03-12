@@ -1,0 +1,48 @@
+module.exports = {
+  mode: "jit",
+  content: ["./src/**/**/*.{js,ts,jsx,tsx,html,mdx}", "./src/**/*.{js,ts,jsx,tsx,html,mdx}"],
+  darkMode: "class",
+  theme: {
+    screens: { md: { max: "1050px" }, sm: { max: "550px" } },
+    extend: {
+      colors: {
+        white: { A700_01: "#ffffff", A700: "#fffcfc" },
+        red: { 900: "#c4110c", A400: "#ff002a", A400_01: "#ed0137", A400_02: "#ed0136" },
+        black: { 900: "#0f0f0f", "900_03": "#060818", "900_72": "#0c0c0c72", "900_05": "#000000", "900_02": "#0a0a0a" },
+        blue_gray: { 200: "#aeb0b8", "200_01": "#aeb1b8" },
+        deep_orange: { A700: "#df180a" },
+        gray: {
+          100: "#faf6f6",
+          200: "#f4f0f0",
+          300: "#e1e1e6",
+          900: "#181818",
+          "100_03": "#f5f5f6",
+          "100_02": "#f7f5f7",
+          "200_89": "#edeaea89",
+          "200_01": "#f0efef",
+          "300_01": "#e6e3e3",
+        },
+        white_A700_96: "#fffcfc96",
+      },
+      boxShadow: {},
+      backgroundImage: {
+        gradient: "linear-gradient(125deg, #ed0136,#f05733)",
+        gradient1: "linear-gradient(125deg, #d51b46,#ee6910)",
+        gradient2: "linear-gradient(112deg, #ff002a,#720005)",
+        gradient3: "linear-gradient(180deg, #030405,#120000)",
+        gradient4: "linear-gradient(180deg, #00000000,#0a1c3d33,#ed013616)",
+        gradient5: "linear-gradient(316deg, #ed0136,#ef490f)",
+      },
+      fontFamily: {
+        poppins: "Poppins",
+        zcoolkuaile: "ZCOOL KuaiLe",
+        shojumaru: "Shojumaru",
+        manrope: "Manrope",
+        inter: "Inter",
+        robotomono: "Roboto Mono",
+      },
+      opacity: { 0.71: 0.71 },
+    },
+  },
+  plugins: [require("@tailwindcss/forms")],
+};
